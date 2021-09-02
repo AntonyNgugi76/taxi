@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_rippleColor="#33ffffff">
+    <item
+        android:id="@+id/bbn_home"
+        android:color="@color/purple_500"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bbn_expenses"
+        android:color="@color/purple_500"
+        android:icon="@drawable/ic_expense"
+        android:title="Expenses" />
+    <item
+        android:id="@+id/profile"
+        android:color="@color/purple_500"
+        android:icon="@drawable/ic_baseline_profile"
+        android:title="Profile" />
+</menu>
